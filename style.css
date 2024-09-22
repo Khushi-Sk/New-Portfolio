@@ -1,0 +1,128 @@
+img{  
+    border: 1px solid #ddd;
+    border-radius: 2233px;
+    padding: 5px;
+    position: static;
+}
+
+.icons{
+    border: 0px ;
+    border-radius: 0px;
+    padding: 5px; 
+    margin: 20px 25px;
+    
+    width: 80px
+}
+/* #techSkills{
+    display: inline;
+}
+
+.iconDiv{
+    display: flex;
+    flex-direction: column;
+} */
+#footerImg{
+ width:20px;
+ border: 0px ;
+ border-radius: 0px;
+ margin-top: 0px;
+ padding: 0px;
+}
+
+#divhead{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+body{
+    background-image: linear-gradient(to right,  #bd5cff, hotpink,  #ffa3ff);
+    border: #aa00ff 8px solid;
+    animation-name: boxShadow;
+    animation-duration: 9s;
+}
+
+
+@keyframes boxShadow {
+    from { box-shadow: 0px 15px -3px 1px #e6ccff}
+    to { box-shadow: 3px 3px 2px 1px #600080} 
+    
+}
+header{
+    /* animation-name: spin;
+    animation-duration: 4s; */
+}
+
+
+#animationDiv{ 
+    width: full;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 800px
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg)}
+    to { transform: rotate(360deg)}   
+}
+
+#anima{
+    background-color: #cc33ff ;
+    width:60px;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: rotate;
+    animation-duration: 8s;
+    border-radius: 3px;
+}
+
+#animate{
+    border-radius: 3px;
+    animation-name: rotate;
+    animation-duration: 9s;
+    background: #f2ccff;
+    width:50px;
+    height:50px;
+}
+
+section{ 
+    background-color: #cc99ff;
+    border-width: 2.3px;
+    border-color: #eb99ff;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 3px 3px 2px 1px #a64dff ;
+    margin: 50px 30px 30px 30px;
+}
+
+footer{
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.525rem;
+    line-height: 1.75rem;
+}
