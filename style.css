@@ -45,7 +45,7 @@
 }
 
 body{
-    background-image: linear-gradient(to right,  #bd5cff, hotpink,  #ffa3ff);
+/*     background-image: linear-gradient(to right,  #bd5cff, hotpink,  #ffa3ff); */
     border: #aa00ff 8px solid;
     animation-name: boxShadow;
     background-image: url("https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif");
