@@ -1,4 +1,4 @@
-img{  
+#pfp{  
     border: 1px solid #ddd;
     border-radius: 2233px;
     padding: 5px;
@@ -34,6 +34,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+
 }
 #imgdiv{
     display: flex;
@@ -46,6 +48,8 @@ body{
     background-image: linear-gradient(to right,  #bd5cff, hotpink,  #ffa3ff);
     border: #aa00ff 8px solid;
     animation-name: boxShadow;
+    background-image: url("https://images.saymedia-content.com/.image/t_share/MTkzOTUzODU0MDkyODc5MzY1/particlesjs-examples.gif");
+    background-size: contain;
     animation-duration: 9s;
 }
 
@@ -57,10 +61,32 @@ body{
 }
 header{
     /* animation-name: spin;
-    animation-duration: 4s; */
+    animation-duration: 4s; */ 
+    height: 700px;   
 }
 
+nav{
+    background: #202060;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border: 0.5px white dotted;
 
+}
+
+.navClass{
+    padding: 10px;
+    margin: 0px 50px ;
+    color: white;
+    text-decoration: none;
+    
+}
+.navClass:hover{
+    color: darkorchid;
+    background:#d7d7d7 ;
+    border-radius: 1.95px
+}
 #animationDiv{ 
     width: full;
     display:flex;
@@ -71,20 +97,24 @@ header{
 }
 
 @keyframes rotate {
-    from { transform: rotate(0deg)}
-    to { transform: rotate(360deg)}   
+    from { opacity: 1}
+    to {opacity: 0.1}
+    from {opacity: 0.0}
+    to { opacity: 1}
 }
 
 #anima{
-    background-color: #cc33ff ;
-    width:60px;
-    height:60px;
+    /* background-color: #cc33ff ; */
+    /* width:60px; */
+    /* height:60px; */
     display:flex;
     justify-content: center;
     align-items: center;
     animation-name: rotate;
-    animation-duration: 8s;
+    animation-duration: 5s;
     border-radius: 3px;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
 }
 
 #animate{
@@ -110,7 +140,7 @@ section{
 footer{
     background: black;
     color: white;
-    width: 100%;
+    /* width: ; */
     height: 100%;
     padding: 20px 40px;
     margin: 0px;
@@ -119,10 +149,21 @@ footer{
     align-items: center;
 }
 
+@keyframes changewidth {
+    from {width: 1200px;}
+    to {width: 400px;}
+  }
+  
 #statement{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size:1.525rem;
     line-height: 1.75rem;
-}
+
+    animation-duration: 5s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 5s;
+  }
